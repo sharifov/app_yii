@@ -1,0 +1,29 @@
+{
+  "name": "marketingsolutions/loyalty-bonuses-manual",
+  "description": "Manual bonuses management for loyalty programs",
+  "keywords": [
+    "yii2"
+  ],
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pavel Agalecky",
+      "email": "pavel.agalecky@gmail.com"
+    }
+  ],
+  "type": "yii2-extension",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "marketingsolutions/loyalty-app-contracts": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {"ms\\loyalty\\bonuses\\manual\\": ""}
+  },
+  "extra": {
+    "bootstrap": "ms\\loyalty\\bonuses\\manual\\Bootstrap",
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  }
+}

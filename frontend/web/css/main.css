@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #ffffff;
+    min-height:       110px;
+}
+.navbar .navbar-brand {
+    display:        inline-block;
+    vertical-align: top;
+    margin-top:     -3px;
+}
+.navbar-default .collapse:not(.in) .navbar-nav > li > a {
+    font-size:     16px;
+    margin-top:    30px;
+    color:         #000000;
+    border-bottom: 2px solid transparent;
+}
+.navbar-default .collapse:not(.in) .navbar-nav > li > a:hover {
+    border-bottom: 2px solid #c6c6c6;
+}
+footer {
+    padding: 15px 0 0 0;
+}
+footer .footer-inner {
+	min-height: 40px;
+}
+body.main {
+    background:      #ffffff url(../images/bg_next.png) no-repeat fixed center top;
+    background-size: cover;
+}
+body.main .navbar-default {
+    border: none;
+}
+body.main footer {
+    position:   fixed;
+    bottom:     0;
+    width:      100%;
+    color:      #ffffff;
+    background: rgba(0, 0, 0, 0.32);
+    border-top: 1px solid rgba(105, 49, 49, 0.43);
+}
+footer .pull-left {
+	margin-bottom: 18px;
+}
+body:not(.main) {
+    background-color: #919191;
+}
+body:not(.main) .wrap {
+    background: #ffffff;
+}
+body:not(.main) footer {
+    background:  #ffffff;
+    padding-top: 40px;
+}
+body:not(.main) footer .footer-inner {
+    border-top: 1px solid #868686;
+    padding:    30px 0 0 30px;
+    background: #c4c4c4;
+}
+.main-logo {
+    vertical-align: top;
+    margin-top:     16px;
+}
